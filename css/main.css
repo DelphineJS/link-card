@@ -1,7 +1,35 @@
 html {
   box-sizing: border-box;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+  padding: .4em .75em .5em;
+  font-size: 1.5rem;
+}
+
+main {
+    font-family: "Georgia", serif;
+    padding: 1rem;
+}
+
+body {
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  background-color: #dcd4cd;
+  padding: 3rem;
+}
+
+.link-card{
+  color: #512200;
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.125rem;
 }
